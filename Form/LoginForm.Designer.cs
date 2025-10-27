@@ -70,7 +70,7 @@
             LoginButton.FillColor = Color.FromArgb(255, 107, 0);
             LoginButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             LoginButton.ForeColor = Color.White;
-            LoginButton.Location = new Point(597, 375);
+            LoginButton.Location = new Point(586, 422);
             LoginButton.Name = "LoginButton";
             LoginButton.ShadowDecoration.CustomizableEdges = customizableEdges6;
             LoginButton.Size = new Size(282, 49);
