@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Menu_Management.Class
 {
-    internal class DatabaseHelper
+    public class DatabaseHelper
     {
         internal static Image convertToImage(byte[] data)
         {
@@ -65,7 +65,7 @@ namespace Menu_Management.Class
             }
         }
 
-        internal static void ShowDishesBySearch(FlowLayoutPanel fl, string text)
+        public static void ShowDishesBySearch(FlowLayoutPanel fl, string text)
         {
             fl.Controls.Clear();
             using (SqlConnection sqlcon = new SqlConnection(GetConnectionString()))
